@@ -1,0 +1,24 @@
+{
+  "name": "quagga_js",
+  "version": "1.0.0",
+  "description": "quagga",
+  "main": "app.js",
+  "scripts": {
+    "test": "gulp debug"
+  },
+  "keywords": [
+    "quagga"
+  ],
+  "author": "aleš brelih",
+  "license": "ISC",
+  "dependencies": {
+    "quagga": "^0.11.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gutil": "^1.6.4",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
